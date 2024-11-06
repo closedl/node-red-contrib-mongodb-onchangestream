@@ -1,0 +1,23 @@
+{
+  "name": "red-contrib-mongodb-onchangestream",
+  "version": "1.0.0",
+  "description": "A Node-RED node to listen to MongoDB collection changes",
+  "main": "listen-collection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["node-red", "mongodb", "changestream"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.10.0"
+  },
+  "node-red": {
+    "nodes": {
+      "listen-collection": "listen-collection.js, listen-collection.html"
+    }
+  },
+  "peerDependencies": {
+    "node-red": ">=1.0.0"
+  }
+}
